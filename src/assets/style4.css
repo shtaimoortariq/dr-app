@@ -1,0 +1,182 @@
+.content {
+  height: 1050px;
+}
+
+#find_bank {
+  margin-bottom: 20px;
+}
+
+.actions ul li a {
+  width: 100px;
+}
+
+.form-radio-flex {
+  margin: 0 -5px;
+}
+
+.form-radio-flex .form-radio-item {
+  padding: 0 5px;
+}
+
+.form-radio-flex input + label {
+  width: 90px;
+  height: 61px;
+}
+
+body {
+  margin-top: 20px;
+}
+
+.card-img {
+  border-radius: 0;
+}
+
+.vgr-cards .card {
+  display: -webkit-box;
+  display: flex;
+  flex-flow: wrap;
+  -webkit-box-flex: 100%;
+  flex: 100%;
+  margin-bottom: 40px;
+}
+
+.vgr-cards .card:nth-child(even) .card-img-body {
+  -webkit-box-ordinal-group: 3;
+  order: 2;
+}
+
+.vgr-cards .card:nth-child(even) .card-body {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+
+@media (max-width: 576px) {
+  .vgr-cards .card {
+    display: block;
+  }
+}
+
+.vgr-cards .card-img-body {
+  -webkit-box-flex: 1;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  .vgr-cards .card-img-body {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+}
+
+.vgr-cards .card-img {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1140px) {
+  .vgr-cards .card-img {
+    margin: 0;
+    -webkit-transform: none;
+    transform: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.vgr-cards .card-body {
+  -webkit-box-flex: 2;
+  flex: 2;
+  padding: 0 0 0 1.25rem;
+}
+
+@media (max-width: 576px) {
+  .vgr-cards .card-body {
+    padding: 0;
+  }
+}
+
+/* === Wrapper Styles === */
+#FileUpload {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  margin: 30px;
+  padding: 10px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  background-color: white;
+  width: 415px;
+}
+
+/* === Upload Box === */
+.upload {
+  margin: 10px;
+  height: 85px;
+  border: 8px dashed #e6f5e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.upload p {
+  margin-top: 12px;
+  line-height: 0;
+  font-size: 22px;
+  color: #0c3214;
+  letter-spacing: 1.5px;
+}
+
+.upload__button {
+  background-color: #e6f5e9;
+  border-radius: 10px;
+  padding: 0px 8px 0px 10px;
+}
+
+.upload__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* === Uploaded Files === */
+.uploaded {
+  width: 375px;
+  margin: 10px;
+  background-color: #e6f5e9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.file {
+  display: flex;
+  flex-direction: column;
+}
+
+.file__name {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: baseline !important;
+  width: 300px !important;
+  line-height: 0 !important;
+  color: #0c3214 !important;
+  font-size: 18px !important;
+  letter-spacing: 1.5px !important;
+}
+
+.fa-times:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

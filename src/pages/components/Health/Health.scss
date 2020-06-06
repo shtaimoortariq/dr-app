@@ -1,0 +1,60 @@
+body {
+  font-family: Ubuntu-Regular, sans-serif;
+}
+
+.Health {
+  margin-bottom: 30px;
+}
+
+section {
+  text-align: start;
+}
+
+section .content-box {
+  height: 50%;
+  margin: auto 0;
+}
+
+section .content {
+  background-color: #ffffff;
+  height: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+section h3 {
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+
+.health-section {
+  margin-top: 88px;
+}
+
+section {
+  .card {
+    min-height: 191px;
+  }
+  .right-content-box {
+    margin-top: 43px;
+  }
+  .content-box {
+    .patient-content {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.3;
+    }
+  }
+
+  .imgBox {
+    border-radius: 50%;
+    width: 50%;
+
+    img {
+      padding: 20px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+

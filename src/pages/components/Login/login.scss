@@ -1,0 +1,57 @@
+.Login {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+  
+  .logo {
+    padding-bottom: 24px;
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+
+    .logoBox {
+      padding: 16px 48px 0;
+      margin-right: 8px;
+      margin-left: 8px;
+    }
+  }
+
+  form {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 448px;
+    padding: 30px 48px 32px 48px;
+
+    .form-control {
+      font-family: inherit !important;
+    }
+
+    .formTitle {
+      line-height: 28px;
+      font-size: 20px;
+    }
+
+    .loginForm {
+      margin-top: 20px;
+
+      span {
+        margin-top: 12px;
+        line-height: 20px;
+        font-weight: 500;
+        font-size: 14px;
+      }
+    }
+
+    .loingBtn {
+      text-align: center;
+      width: 100%;
+    }
+
+    .registerLink {
+      text-align: center;
+      padding-top: 13px;
+    }
+  }
+}

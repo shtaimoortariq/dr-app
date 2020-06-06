@@ -1,0 +1,43 @@
+.SignUp {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 841px;
+  margin: 0 auto;
+
+  .row {
+    .alert {
+      width: 100%;
+      text-align: center;
+    }
+
+    .sign-up-col-6 {
+      margin: 0 auto;
+    }
+  }
+
+  .middle {
+    padding-bottom: 20px;
+  }
+
+  form {
+    width: 100%;
+
+    .signUpBtn {
+      text-align: center;
+      padding-top: 13px;
+      width: 100%;
+    }
+
+    .form-control {
+      font-family: inherit !important;
+    }
+
+    .registerLink {
+      text-align: center;
+      padding-top: 13px;
+    }
+  }
+}

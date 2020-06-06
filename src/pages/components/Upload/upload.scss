@@ -1,0 +1,23 @@
+.Upload {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.file__name {
+  p {
+    margin-bottom: 0;
+    font-size: 18px;
+    list-style: 0;
+    color: #0c3214;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .progress-bar-animated {
+    animation: progress-bar-stripes 1s linear infinite;
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.11798999.chunk.css",
+    "main.js": "/static/js/main.141908d5.chunk.js",
+    "main.js.map": "/static/js/main.141908d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1812e016.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1812e016.js.map",
+    "static/css/2.7eca7cab.chunk.css": "/static/css/2.7eca7cab.chunk.css",
+    "static/js/2.128c5e4e.chunk.js": "/static/js/2.128c5e4e.chunk.js",
+    "static/js/2.128c5e4e.chunk.js.map": "/static/js/2.128c5e4e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.46f536a00bb0bc6196be0a194d67ab5b.js": "/precache-manifest.46f536a00bb0bc6196be0a194d67ab5b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.7eca7cab.chunk.css.map": "/static/css/2.7eca7cab.chunk.css.map",
+    "static/css/main.11798999.chunk.css.map": "/static/css/main.11798999.chunk.css.map",
+    "static/js/2.128c5e4e.chunk.js.LICENSE.txt": "/static/js/2.128c5e4e.chunk.js.LICENSE.txt",
+    "static/media/Shasthoboi.svg": "/static/media/Shasthoboi.e1096356.svg",
+    "static/media/main.css": "/static/media/Ubuntu-Regular.b3488e84.ttf",
+    "static/media/allergy.svg": "/static/media/allergy.cf108b5a.svg",
+    "static/media/family.svg": "/static/media/family.91aa3eac.svg",
+    "static/media/health.svg": "/static/media/health.99ba0b26.svg",
+    "static/media/imaging.svg": "/static/media/imaging.ed017e2a.svg",
+    "static/media/lifestyle.svg": "/static/media/lifestyle.98c2d4c4.svg",
+    "static/media/style.css": "/static/media/roboto-slab-v7-latin-regular.1e09096f.eot",
+    "static/media/treatment.svg": "/static/media/treatment.14070416.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1812e016.js",
+    "static/css/2.7eca7cab.chunk.css",
+    "static/js/2.128c5e4e.chunk.js",
+    "static/css/main.11798999.chunk.css",
+    "static/js/main.141908d5.chunk.js"
+  ]
+}

@@ -1,0 +1,43 @@
+.header-fixed{
+  height: 70px;
+}
+
+header a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff !important;
+  padding: 8px;
+}
+
+header a:hover {
+  color: #ffffff;
+}
+
+header .navbar .dropdown .dropdown-menu {
+  left: -120px;
+  top: 100%;
+}
+
+header .navbar svg {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+header .navbar .dropdown .dropdown-menu a {
+  color: #666c71 !important;
+  padding: 4px 24px;
+  font-size: 0.9rem;
+  display: flex;
+}
+
+header .navbar .dropdown .dropdown-menu svg {
+  color: #495057 !important;
+  font-size: 15px;
+  line-height: 1;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+header .navbar img {
+  width: 120px;
+}
